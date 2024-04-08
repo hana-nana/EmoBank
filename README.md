@@ -128,7 +128,7 @@ RDS
    <br><br>
 3. 기록 저축
    <br>
-   ![기록저축](https://github.com/pages-themes/architect/assets/80585489/9a8b3416-e504-4362-926c-d28216887abe)
+   ![기록저축](https://github.com/hana-nana/ReactPJT/assets/80585489/aa60a6de-4440-4e10-b7a7-5d163d7a7e1c)
    <br><br>
 4. 간편 저축
    <br>
