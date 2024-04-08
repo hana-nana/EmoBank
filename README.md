@@ -1,5 +1,3 @@
-# SSAFY 10기 특화 프로젝트 (핀테크)
-
 # 감정저축은행
 
 ### 목차
@@ -120,20 +118,42 @@ RDS
 
 ## 5. 서비스 화면
 
-1. 메인 페이지
-   ![main](https://github.com/emo-bank/Emobank/assets/38126462/7116dae8-34d0-4048-a579-91c5e722fc25)
+1. 메인페이지 및 회원가입
+   <br>
+   ![회원가입](https://github.com/pages-themes/architect/assets/80585489/3f1603dd-1186-481c-b4e8-a7b57ae534c6)
    <br><br>
-2. 메모 저축
-   ![memo](https://github.com/emo-bank/Emobank/assets/38126462/b9701bb2-02a8-4696-be52-92ac71cfa036)
+2. 로그인 및 통장개설
+   <br>
+   ![통장개설](https://github.com/pages-themes/architect/assets/80585489/3c4b789a-d919-4789-84bc-8abc7d96edd1)
    <br><br>
-3. 이모티콘 저축
-  ![imoji](https://github.com/emo-bank/Emobank/assets/38126462/5e0b34b2-f3c0-4590-aed6-ea015fb14106)
+3. 기록 저축
+   <br>
+   ![기록저축](https://github.com/pages-themes/architect/assets/80585489/9a8b3416-e504-4362-926c-d28216887abe)
    <br><br>
-4. 기부
-   ![donation](https://github.com/emo-bank/Emobank/assets/38126462/ceb10b74-83c8-4525-80a7-a10c098f474b)
+4. 간편 저축
+   <br>
+   ![간편저축](https://github.com/pages-themes/architect/assets/80585489/1ea982c0-e680-47e2-adc4-211662fd8546)
    <br><br>
-5. 마이페이지
- ![mypage](https://github.com/emo-bank/Emobank/assets/38126462/82a1a8ac-3a88-472d-bea6-9073b852da81)
+5. 기부하기, 기부내역확인
+   <br>
+   ![기부하기](https://github.com/pages-themes/architect/assets/80585489/ba26f187-36ab-4e9b-b1de-e2ea8fb4b9b6)
+   ![기부내역확인](https://github.com/pages-themes/architect/assets/80585489/81ef17d2-58ec-4b4b-954f-369a4b40a122)
+   <br><br>
+6. 마이페이지
+    <br>
+   6-1. 감정통계
+   <br>
+   ![감정통계](https://github.com/pages-themes/architect/assets/80585489/07a39ec5-93a7-48a4-ba3e-56cd544e7f96) <br>
+   6-2. 통장정보수정
+   <br>
+   ![통장정보수정](https://github.com/pages-themes/architect/assets/80585489/42855150-41cb-4677-b67b-a2a4a8198e5d) <br>
+   6-3. 감정저축내역 확인
+   <br>
+   ![감정저축내역(액자)](https://github.com/pages-themes/architect/assets/80585489/9ab65458-6131-4574-8365-6ad0af90dfd7)
+    <br><br>
+7. 배경음악 재생(턴 테이블)
+    <br>
+   ![음악재생](https://github.com/pages-themes/architect/assets/80585489/25f483b5-7da0-498e-a4a9-6966d4ffaf55)
 
 ## 6. 시스템 아키텍쳐
 ![특화 서비스 기술 설계_png](https://github.com/emo-bank/Emobank/assets/38126462/ebfc9fed-0225-427c-b7a9-f3b2f8fefe09)
