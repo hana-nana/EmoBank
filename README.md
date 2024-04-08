@@ -136,7 +136,7 @@ RDS
    <br><br>
 5. 기부하기, 기부내역확인
    <br>
-   ![기부하기](https://github.com/pages-themes/architect/assets/80585489/ba26f187-36ab-4e9b-b1de-e2ea8fb4b9b6)
+   ![기부하기](https://github.com/hana-nana/ReactPJT/assets/80585489/a03675b0-93c9-4f8d-804d-4c1e7a34ecc3)
    ![기부내역확인](https://github.com/pages-themes/architect/assets/80585489/81ef17d2-58ec-4b4b-954f-369a4b40a122)
    <br><br>
 6. 마이페이지
@@ -149,7 +149,7 @@ RDS
    ![통장정보수정](https://github.com/pages-themes/architect/assets/80585489/42855150-41cb-4677-b67b-a2a4a8198e5d) <br>
    6-3. 감정저축내역 확인
    <br>
-   ![감정저축내역(액자)](https://github.com/pages-themes/architect/assets/80585489/9ab65458-6131-4574-8365-6ad0af90dfd7)
+   ![감정저축내역(액자)](https://github.com/hana-nana/ReactPJT/assets/80585489/597738e0-da42-4c01-a5e9-c28fe503fbc1)
     <br><br>
 7. 배경음악 재생(턴 테이블)
     <br>
