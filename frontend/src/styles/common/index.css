@@ -1,0 +1,79 @@
+@import url('../../reset.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html, main, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ******************** */
+
+.layout-detail{
+  width:  100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top{
+  width: 100%;
+  height: 50%;
+}
+
+.center{
+  width:100%;
+  height:50%;
+  justify-content: center;
+  align-self: center;
+}
+
+.top>img{
+  width: 20%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.bottom{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.bottom .container{
+  padding: 10rem 2rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom .modalbanner {
+  position: fixed;
+  top: -35%;
+  left: 15%;
+  width: 70%;
+  z-index: -1;
+}

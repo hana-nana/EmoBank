@@ -1,0 +1,20 @@
+.record:hover, .simple:hover, .save:hover, .emotion:hover, .complete:hover {
+    text-decoration-line: underline;
+    text-decoration-color:palevioletred;
+    text-decoration-thickness: 5px;
+    
+}
+
+.kinds:hover {
+    border: 1px red solid;
+    border-radius: 50%;
+}
+
+.submit:active {
+    background-color: gray;
+}
+
+.happiness:hover, .angry:hover, .sadness:hover, .fear:hover, .surprise:hover, .disgust:hover, .neutral:hover {
+    font-size: larger;
+}
+

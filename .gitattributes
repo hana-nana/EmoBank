@@ -1,0 +1,2 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+ai/model_epoch_20.pth filter=lfs diff=lfs merge=lfs -text

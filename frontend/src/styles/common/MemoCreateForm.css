@@ -1,0 +1,62 @@
+.memocreateformContainer{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.scrollpaper {
+  position: fixed;
+  top: 3%;
+  left: 20%;
+  width: 25%;
+}
+
+.papertextarea {
+  position: fixed;
+  top: 15%;
+  left: 23.5%;
+  width: 18%;
+  height: 35%;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  box-shadow: none;
+  border: none;
+  font-family: 'YEONGJUSeonbiTTF';
+}
+
+textarea:focus,
+textarea:active{
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-family: 'YEONGJUSeonbiTTF';
+}
+
+@font-face {
+  font-family: 'YEONGJUSeonbiTTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.papersaveBtn {
+  position: fixed;
+  top: 48%;
+  left: 36%;
+  width: 5%;
+  height: 5%;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+  border: 1px solid rgb(84, 84, 84);
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.papersaveBtn:hover{
+  background-color: rgb(63, 100, 88);
+  color: white;
+  border: none;
+}

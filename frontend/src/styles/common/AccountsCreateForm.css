@@ -1,0 +1,122 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.bankbook {
+    width: 50%;
+    height: 85%;
+    position: fixed;
+    top: 6%;
+    left: 22%;
+    opacity: 20%;
+    z-index: -1;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+
+.reactModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    width: 80%;
+    height: 85%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: rgb(0,0,0);
+    border-radius: 30px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+}
+
+button {
+width: 10%;
+}
+
+.saveBtn {
+    position: fixed;
+    top: 85%;
+    right: 5%;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: none;
+}
+
+.saveBtn:hover {
+    background-color: rgb(107, 162, 146);
+    color: white;
+}
+
+.closeBtn {
+    position: fixed;
+    top: 6%;
+    right: 4%;
+    width: 2%;
+}
+
+label {
+    width: 150%;
+}
+
+.createmodalform {
+    font-size: 15px;
+    width: 50%;
+    overflow: hidden;
+    margin-right: 250px;
+    margin-top: 60px;
+    margin-left: -350px;
+}
+
+.ToggleMenu {
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-top: 270px;
+}
+
+.ToggleMenu p {
+    margin-right: 40px;
+    color: white;
+}
+
+.Image {
+    width: 100%;
+}
+
+label {
+color: white;
+margin-top: 15px;
+}
+
+input {
+    display: inline-block;
+    width: 200%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}

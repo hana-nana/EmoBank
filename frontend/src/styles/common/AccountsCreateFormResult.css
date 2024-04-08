@@ -1,0 +1,311 @@
+
+.bankbookcontainer {
+    width: 800px;
+    height: 440px;
+    margin: 40px auto;
+    background-color: wheat;
+    border-radius: 20px;
+    box-shadow: rgba(245, 222, 179, 1) 0px 0px 70px;
+    padding: 36px 48px 48px 48px;
+    position: fixed;
+    top: 17%;
+    left: 23%;
+}
+
+.goal {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    position: fixed;
+    top: 23%;
+    left: 25.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+.image {
+    width: 705px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.owner {
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.createDate {
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.balance {
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-name {
+    text-align: right;
+
+}
+
+.logo-title {
+    font-size: 35px;
+    position: fixed;
+    top: 71%;
+    left: 57%;
+    font-family: 'SF_HambakSnow';
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.stamp {
+    position: fixed;
+    top: 65%;
+    left: 68.4%;
+    z-index: -1;
+}
+
+.createcontainer .gohome {
+    position: fixed;
+    top: 87%;
+    left: 46%;
+    border-radius: 40px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.createcontainer .gohome:hover {
+    color: white;
+    background-color: rgb(107, 162, 146);
+}
+
+  .createcontainer {
+    background-color: black;
+  }
+  
+  .resulttitle {
+    position: fixed;
+    top: 10%;
+    left: 28%;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: 'SF_HambakSnow';
+    z-index: 15;
+    animation: appear .5s ease 1.5s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes appear {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+  }
+  
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /*********************************************************/
+  
+  html,
+  body {
+  height: 100vh;
+  overflow: hidden;
+  }
+  
+  .container1 {
+  position: relative;
+  min-height: 210vh;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  }
+  
+  .container2 {
+  position: relative;
+  min-height: 210vh;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  }
+  
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  }
+  
+  .col {
+  width: 160%;
+  height: -50%;
+  }
+  
+  .align-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  .forms p {
+  margin: 1rem 0;
+  }
+  
+  .flex-col {
+  flex-direction: column;
+  }
+  
+  .pointer {
+  cursor: pointer;
+  }
+  
+  .container1.sign-in .forms.sign-in,
+  .container1.sign-in .social-list.sign-in,
+  .container1.sign-in .social-list.sign-in>div,
+  .container1.sign-up .forms.sign-up,
+  .container1.sign-up .social-list.sign-up,
+  .container1.sign-up .social-list.sign-up>div {
+  transform: scale(1.1);
+  }
+  
+  
+  .content-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 6;
+  width: 100%;
+  }
+  
+  
+  .text {
+  margin: 4rem;
+  color: var(--white);
+  }
+  
+  .text label {
+  margin: 2rem 0;
+  transition: 1s ease-in-out;
+  color: white;
+  }
+  
+  .text p {
+  transition: 1s ease-in-out;
+  transition-delay: .1s;
+  }
+  
+  .img img {
+  width: 30vw;
+  transition: 1s ease-in-out;
+  transition-delay: .1s;
+  }
+  
+  .text.sign-in h2,
+  .text.sign-in p,
+  .img.sign-in img {
+  transform: translateX(-280%);
+  position: absolute;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  left: 150px;
+  flex-wrap: wrap;
+  transition-delay: 1s;
+  }
+  
+  .container1.sign-in .text.sign-in h2,
+  .container1.sign-in .text.sign-in p,
+  .container1.sign-in .img.sign-in img,
+  .container1.sign-up .text.sign-up h2,
+  .container1.sign-up .text.sign-up p,
+  .container1.sign-up .img.sign-up img {
+  transform: translateX(0);
+  }
+  
+  /* BACKGROUND */
+  
+  .curtain1 {
+    z-index: 6;
+    position: fixed;
+    max-height: 80vh;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .container1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  height: 120vh;
+  width: 250vw;
+  transform: translate(0, -10%);
+  background-image: url('/assets/초록커튼.png');
+  transition: 2s ease-in-out;
+  z-index: 6;
+  border-bottom-right-radius: max(0vw, 0vh);
+  }
+  
+  .container1.sign-up::before {
+  transform: translate(0, 0);
+  top: -5%;
+  right: 85%;
+  }
+  
+  .container2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 120vh;
+    width: 250vw;
+    transform: translate(0, -10%);
+    background-image: url('/assets/초록커튼.png');
+    transition: 2s ease-in-out;
+    z-index: 6;
+    border-bottom-left-radius: max(0vw, 0vh);
+  
+  }
+    
+    .container2.sign-up::before {
+    transform: translate(0, 0);
+    top: -5%;
+    left: 80%;
+    }
+  
